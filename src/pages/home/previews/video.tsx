@@ -121,7 +121,7 @@ const Preview = () => {
         margin: [10, "50%"],
         antiOverlap: true,
         useWorker: true,
-        synchronousPlayback: true,
+        synchronousPlayback: false,
         lockTime: 5,
         maxLength: 100,
         minWidth: 200,
